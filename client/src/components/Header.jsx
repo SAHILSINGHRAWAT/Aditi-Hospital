@@ -43,7 +43,7 @@ function Header() {
         <div>
           <img src={logo} alt="ADITI LOGO" />
         </div>
-        <div className=" navigation" ref={menuRef} onClick={toggleMenu}>
+        <div className="navigation" ref={menuRef} onClick={toggleMenu}>
           <ul className="menu flex justify-center lg:gap-10 lg:m-0.5">
             {navLinks.map((link, index) => (
               <li className=" m-[0.5rem] "key={index}>
